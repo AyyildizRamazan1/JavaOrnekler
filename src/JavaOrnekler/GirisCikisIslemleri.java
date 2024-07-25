@@ -17,7 +17,7 @@ public class GirisCikisIslemleri {
 //			byte[] dizi = { 66, 65, 66, 65 };
 //			fileOutPutStream.write(dizi);
 
-			String isim = "Ramazan Ayyıldız";
+			String isim = "Ramazan Ayyıldız ";
 			byte[] isimDizi = isim.getBytes();
 			fileOutPutStream.write(isimDizi);
 			
