@@ -11,11 +11,12 @@ public class VoidMethod {
 		 * method oluşturun
 		 */
 
-		boolean uyeMi = true;
+		boolean uyeMi = false;
 		int uelikYili = 3;
 		int satisFiyati = 250;
 		
 		indirimliFiyatHesapla(uyeMi, uelikYili, satisFiyati);
+		
 	}
 
 	public static void indirimliFiyatHesapla(boolean uyeMi, int uyelikYili, int satisFiyati) {
