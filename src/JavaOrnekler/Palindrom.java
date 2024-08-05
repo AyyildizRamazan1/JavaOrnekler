@@ -13,6 +13,7 @@ public class Palindrom {
 		}
 		if(input == tersSayi)
 			return true;
+		
 		else
 			return false;
 	}
