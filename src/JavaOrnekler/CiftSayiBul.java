@@ -16,7 +16,7 @@ public class CiftSayiBul {
 		for (int i = 1; i <= sayi; i++) {
 			if (i % 20 == 0) {
 				sayilar.add(i);
-				toplam += i; // Liste elemanları toplama işlemi
+				toplam += i;     // Liste elemanları toplama işlemi
 			}
 
 		}
