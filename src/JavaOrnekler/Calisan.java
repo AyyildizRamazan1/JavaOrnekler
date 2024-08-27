@@ -10,8 +10,8 @@ public class Calisan {
 		this.telefon = telefon;
 	}
 
-	protected void giris() { // Protected alt sınıflarda kullanılabilir başka sınıflarda kullanılmaz
-		System.out.println(this.adSoyad + " Giriş yaptı!");
+	public String giris() {
+		return this.adSoyad + " giris yaptı";
 	}
 
 	public String getAdSoyad() {

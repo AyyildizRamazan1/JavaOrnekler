@@ -14,6 +14,10 @@ public class Akademisyen extends Calisan {
 		System.out.println("Derse girildi.");
 	}
 
+	public String giris() {
+		return super.giris() + " A kapısından !";
+	}
+
 	public String getBolum() {
 		return bolum;
 	}
