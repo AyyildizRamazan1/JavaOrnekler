@@ -9,6 +9,7 @@ public class OkulMain {
 		OgretimUyesi o = new OgretimUyesi("Ramazan Ayyıldız", "r@gmail.com", "0555 555 55 55", "Bst", "Asistan",
 				"Java101", "Ogretim Üyesi");
 		o.giris();
+		
 	}
 
 }
