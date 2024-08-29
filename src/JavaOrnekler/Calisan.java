@@ -37,4 +37,10 @@ public class Calisan {
 	public void setTelefon(String telefon) {
 		this.telefon = telefon;
 	}
+
+	public static void listele(Calisan[] girisYapanlar) {
+		for (Calisan c : girisYapanlar) {
+			System.out.println(c.giris());
+		}
+	}
 }
