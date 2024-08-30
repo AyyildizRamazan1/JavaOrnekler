@@ -3,7 +3,8 @@ package JavaOrnekler;
 public class OkulMain {
 
 	public static void main(String[] args) {
-		Akademisyen a = new Akademisyen("Ahmet", "a@gmail.com", "05555555555", "Bst", "Hoca", "Veri Tabanı");
+		// Akademisyen a = new Akademisyen("Ahmet", "a@gmail.com", "05555555555", "Bst",
+		// "Hoca", "Veri Tabanı");
 
 		OgretimUyesi o = new OgretimUyesi("Ramazan Ayyıldız", "r@gmail.com", "0555 555 55 55", "Bst", "Asistan",
 				"Java101", "Ogretim Üyesi");
@@ -13,9 +14,9 @@ public class OkulMain {
 
 		// Calisan c = new Akademisyen("AhmetPolymorphism", "a@gmail.com",
 		// "05555555555", "Bst", "Hoca", "Veri Tabanı");
+		// Calisan[] girisListesi = { a, o, as };
+		// Calisan.listele(girisListesi);
 
-		Calisan[] girisListesi = { a, o, as };
-
-		Calisan.listele(girisListesi);
+		o.derseGir(10);
 	}
 }

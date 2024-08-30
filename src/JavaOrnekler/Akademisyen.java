@@ -1,6 +1,6 @@
 package JavaOrnekler;
 
-public class Akademisyen extends Calisan {
+public abstract class Akademisyen extends Calisan {
 	String bolum, gorevler, ders;
 
 	public Akademisyen(String adsoyad, String eposta, String telefon, String bolum, String gorevler, String ders) {
@@ -10,9 +10,7 @@ public class Akademisyen extends Calisan {
 		this.ders = ders;
 	}
 
-	public void derseGir() {
-		System.out.println("Derse girildi.");
-	}
+	public abstract void derseGir(int dersSaati);
 
 	public String giris() {
 		return super.giris() + " A kapısından !";

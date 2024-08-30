@@ -12,4 +12,19 @@ public class OgretimUyesi extends Akademisyen {
 	public String giris() {
 		return this.unvan + " " + super.giris();
 	}
+
+	@Override
+	public void derseGir(int dersSaati) {
+		System.out.println(getUnvan() + " " + getAdSoyad() + " " + getDers() + " saat: " + dersSaati
+				+ " Dersine Asistan Olarak Girdi");
+
+	}
+
+	public String getUnvan() {
+		return unvan;
+	}
+
+	public void setUnvan(String unvan) {
+		this.unvan = unvan;
+	}
 }

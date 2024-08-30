@@ -20,4 +20,9 @@ public class Asistan extends Akademisyen {
 	public void setYuksekLisans(String yuksekLisans) {
 		this.yuksekLisans = yuksekLisans;
 	}
+
+	@Override
+	public void derseGir(int dersSaati) {
+		System.out.println(getAdSoyad() + " " + getDers() + " saat: " + dersSaati + " Dersine Asistan Olarak Girdi");
+	}
 }
