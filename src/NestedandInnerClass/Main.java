@@ -13,7 +13,7 @@ public class Main {
 		Local l = new Local();
 		// l.run();
 
-		Anonim a = new Anonim() {//Buraya yeni bir metod yazamazsın sadece override edersin
+		Anonim a = new Anonim() {// Buraya yeni bir metod yazamazsın sadece override edersin
 			public void run() {
 				System.out.println("Anonim sınıfına ait bir run metodu");
 			}
