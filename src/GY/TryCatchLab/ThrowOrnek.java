@@ -1,4 +1,4 @@
-package GY;
+package GY.TryCatchLab;
 
 public class ThrowOrnek {
     public static void main(String[] args) {

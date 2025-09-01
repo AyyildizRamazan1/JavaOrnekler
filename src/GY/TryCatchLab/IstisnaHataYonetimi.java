@@ -1,4 +1,4 @@
-package GY;
+package GY.TryCatchLab;
 
 import java.io.File;
 import java.io.FileReader;
