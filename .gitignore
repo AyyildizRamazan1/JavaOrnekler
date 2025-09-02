@@ -1,3 +1,21 @@
+# IntelliJ IDEA
+/.idea/
+/*.iml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Derleme çıktıları
 /bin/
 /production/
-/.idea/
+out/
+
+# Derlenmiş class dosyaları
+*.class
+
+# Geçici dosyalar
+*.log
+*.tmp
+*.swp
