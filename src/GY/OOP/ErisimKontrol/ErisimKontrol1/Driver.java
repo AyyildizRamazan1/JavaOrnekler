@@ -10,7 +10,16 @@ public class Driver {
         ogrenci.numara = 1;
         ogrenci.numarayiYazdir();*/
 
-        Araba araba = new Araba();
-        araba.marka="Honda";
+        /*Araba araba = new Araba();
+        araba.marka="Honda";*/
+
+        Ogrenci ogrenci = new Ogrenci();
+        ogrenci.numara = 1;
+        ogrenci.ad = "Ali";
+        ogrenci.soyad = "CAN";
+
+        ogrenci.setYas(12);
+
+        ogrenci.bilgileriYazdir();
     }
 }
